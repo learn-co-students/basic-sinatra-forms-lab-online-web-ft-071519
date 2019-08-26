@@ -6,8 +6,10 @@
  </head>
  <body>
  
-
-
+   <h2><%= @all[0]%></h2>
+    <% @all.each do |line| %>
+        <h3><%= line %></h3>
+    <% end %>
  </body>
 </html>
 
